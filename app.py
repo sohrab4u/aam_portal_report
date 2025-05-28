@@ -7,7 +7,7 @@ from io import BytesIO
 import base64
 
 st.set_page_config(layout="wide", page_title="Footfall Summary Report")
-st.title("🩺 Healthcare Footfall Summary Report")
+st.title("🩺 Footfall Summary Report")
 
 def clean_columns(df):
     df.columns = [col.strip() for col in df.columns]
