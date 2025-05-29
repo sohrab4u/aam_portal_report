@@ -6,7 +6,7 @@ from fpdf import FPDF
 from io import BytesIO
 import base64
 
-st.set_page_config(layout="wide", page_title="Footfall Summary Report")
+st.set_page_config(layout="wide", page_title="Ayushman Arogya Mandir - Summary Reports")
 st.title("🩺 Footfall Summary Report")
 
 def clean_columns(df):
